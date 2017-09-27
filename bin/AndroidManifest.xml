@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.scrollview"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="YeSeoul"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.scrollview.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="YeSeoul"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".TabActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".WestTabActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".EastTabActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.scrollview.Tab1"
+            android:label="@string/title_section1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.scrollview.Tab2"
+            android:label="@string/title_section2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Page1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Wa_Page1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Wa_Page2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Wa_Page3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Wa_Page4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Wa_Page5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Wa_Page6"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Wb_Page1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Wb_Page2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Wb_Page3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Wb_Page4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Wb_Page5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Wb_Page6"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Ma_Page1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Ma_Page2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Ma_Page3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Ma_Page4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Ma_Page5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Ma_Page6"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Ma_Page7"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Mb_Page1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Mb_Page2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Mb_Page3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Mb_Page4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Mb_Page5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Mb_Page6"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Ea_Page1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Ea_Page2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Ea_Page3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Ea_Page4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Ea_Page5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Ea_Page6"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Eb_Page1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Eb_Page2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Eb_Page3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Eb_Page4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Eb_Page5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Eb_Page6"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Course_Page1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Course_Page2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Course_Page3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="Course_Page4"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

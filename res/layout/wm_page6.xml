@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECA8B2"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="10"
+            android:useDefaultMargins="false" >
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:layout_rowSpan="2"
+                android:src="@drawable/wm_btn6" />
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:layout_rowSpan="2"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_column="0"
+                android:layout_row="4"
+                android:layout_rowSpan="2"
+                android:src="@drawable/west_map" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="6"
+                android:layout_rowSpan="2"
+                android:text="서울특별시 영등포구 63로 50"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="8"
+                android:layout_rowSpan="2"
+                android:src="@drawable/line" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="fill_vertical"
+                android:layout_row="0"
+                android:layout_rowSpan="5"
+                android:text="이용요금 : \n어른(만19세 이상) 13,000원\n청소년(만13~18세) 12,000원\n어린이(36개월 이상~만12세 이하) 및 경로자 11,000원\n\n이용시간\n매일 10:00 - 22:00 21:30 까지 입장가능\n\n주차 시설 : \n한강둔치 주차장, 63길 주차장\n주차 요금 : \n기본 무료주차 시간	1시간\n추가 무료주차 시간	+ 30분\n무료주차 시간 외 추가 요금 발생 시 15분당 1,000원"
+                android:textColor="#FFFFFF" />
+
+            <ImageButton
+                android:id="@+id/callBtn"
+                android:layout_width="78.4dp"
+                android:layout_height="83.2dp"
+                android:layout_column="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_row="5"
+                android:background="@drawable/call"
+                android:onClick="callBtn" />
+
+            <Button
+                android:id="@+id/textBtn"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="7"
+                android:background="@drawable/button_button01"
+                android:onClick="textBtn"
+                android:text="홈페이지주소 : http://www.63.co.kr/home/63CITY/skyart/intro.do"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_columnSpan="2"
+                android:orientation="vertical" >
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/round_box"
+                    android:fadeScrollbars="false"
+                    android:scrollbarSize="10dp"
+                    android:scrollbarStyle="outsideInset"
+                    android:scrollbarThumbHorizontal="@drawable/scrollbar_bg1"
+                    android:scrollbarTrackHorizontal="@drawable/scrollbar_bg2" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/wm6_p1" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/wm6_p2" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/wm6_p3" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </GridLayout>
+    </ScrollView>
+
+</LinearLayout>

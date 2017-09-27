@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECA8B2"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="10"
+            android:useDefaultMargins="false" >
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:layout_rowSpan="2"
+                android:src="@drawable/mm_btn7" />
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:layout_rowSpan="2"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_column="0"
+                android:layout_row="4"
+                android:layout_rowSpan="2"
+                android:src="@drawable/middle_map" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="6"
+                android:layout_rowSpan="2"
+                android:text="서울특별시 종로구 창의문로11길 4-1"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="8"
+                android:layout_rowSpan="2"
+                android:src="@drawable/line" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="fill_vertical"
+                android:layout_row="0"
+                android:layout_rowSpan="5"
+                android:text="\n요금\n개인\n일반 9000원, 대학생 7000원, 청소년 5000원, 어린이 3000원, 우대 7000원\n단체\n일반 7200원, 대학생 5600원, 청소년 4000원, 어린이 2400원, 우대 5600원\n\n휴관일\n매주 월요일\n\n주차요금\n평일 2시간/ 주말 및 공휴일 1시간30분 무료"
+                android:textColor="#FFFFFF" />
+
+            <ImageButton
+                android:id="@+id/callBtn"
+                android:layout_width="78.4dp"
+                android:layout_height="83.2dp"
+                android:layout_column="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_row="5"
+                android:background="@drawable/call"
+                android:onClick="callBtn" />
+
+            <Button
+                android:id="@+id/textBtn"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="7"
+                android:background="@drawable/button_button01"
+                android:onClick="textBtn"
+                android:text="홈페이지주소: http://www.seoulmuseum.org//"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_columnSpan="2"
+                android:orientation="vertical" >
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/round_box"
+                    android:fadeScrollbars="false"
+                    android:scrollbarSize="10dp"
+                    android:scrollbarStyle="outsideInset"
+                    android:scrollbarThumbHorizontal="@drawable/scrollbar_bg1"
+                    android:scrollbarTrackHorizontal="@drawable/scrollbar_bg2" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/mm7_p1" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/mm7_p2" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </GridLayout>
+    </ScrollView>
+
+</LinearLayout>

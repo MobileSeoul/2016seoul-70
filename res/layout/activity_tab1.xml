@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECA8B2"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:columnCount="2"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:rowCount="10" >
+
+            <ImageButton
+                android:id="@+id/ma_button1"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_column="0"
+                android:layout_marginRight="10dp"
+                android:layout_row="0"
+                android:background="@drawable/mm_btn1" />
+
+            <ImageButton
+                android:id="@+id/ma_button3"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:background="@drawable/mm_btn3" />
+
+            <ImageButton
+                android:id="@+id/ma_button4"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:background="@drawable/mm_btn4" />
+
+            <ImageButton
+                android:id="@+id/ma_button5"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:background="@drawable/mm_btn5" />
+
+            <ImageButton
+                android:id="@+id/ma_button6"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:background="@drawable/mm_btn6" />
+
+            <ImageButton
+                android:id="@+id/ma_button7"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_column="0"
+                android:layout_row="3"
+                android:background="@drawable/mm_btn7" />
+
+            <ImageButton
+                android:id="@+id/ma_button2"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_column="1"
+                android:layout_gravity="left|top"
+                android:layout_row="0"
+                android:background="@drawable/mm_btn2" />
+        </GridLayout>
+    </ScrollView>
+
+</LinearLayout>
